@@ -1,0 +1,9 @@
+@use '../../../../../../style/index' as index;
+
+.socials {
+  width: 100%;
+  @include index.flex-center(center, flex-end, 30px);
+  @media screen and (max-width: 768px){
+    justify-content: center;
+  }
+}

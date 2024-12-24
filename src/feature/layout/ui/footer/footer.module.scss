@@ -13,13 +13,7 @@
     border-top: none;
   }
 }
-.socials {
-  width: 100%;
-  @include index.flex-center(center, flex-end, 30px);
-  @media screen and (max-width: 768px){
-    justify-content: center;
-  }
-}
+
 .policyLinks {
   color: var(--light-greyscale-text-secondary);
   @include index.flex-center(flex-start, space-between, 15px, column);
