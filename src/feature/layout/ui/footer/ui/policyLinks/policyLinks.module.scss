@@ -1,0 +1,10 @@
+@use '../../../../../../style/index' as index;
+
+.policyLinks {
+  color: var(--light-greyscale-text-secondary);
+  @include index.flex-center(flex-start, space-between, 15px, column);
+  @media screen and (max-width: 768px){
+    align-items: center;
+    margin: 60px 0 30px;
+  }
+}

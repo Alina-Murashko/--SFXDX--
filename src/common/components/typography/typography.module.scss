@@ -1,0 +1,38 @@
+@mixin typography($fontSize, $lineHeight, $fontWeight) {
+  margin: 0;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  line-height: $lineHeight;
+}
+
+.dark {
+  color: var(--color-light-100);
+}
+
+.light {
+  color: var(--color-dark-900);
+}
+
+.subtitle1 {
+  font-family: var(--font-family-secondary), sans-serif;
+  @include typography(var(--font-size-text-m), var(--line-height-text-m), var(--font-weight-medium));
+}
+
+.title1 {
+  font-family: var(--font-family-third), sans-serif;
+  @include typography( var(--font-size-text-l), var(--line-height-s),var(--font-weight-medium));
+}
+
+.link {
+  font-family: var(--font-family-third), sans-serif;
+  @include typography( var(--font-size-text-l), var(--line-height-s),var(--font-weight-medium));
+  cursor: pointer;
+  text-decoration: none;
+  &:focus-visible {
+    border-radius: 2px;
+    outline: 2px solid var('');
+    outline-offset: 1px;
+  }
+}
+
+

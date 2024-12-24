@@ -1,0 +1,13 @@
+.metamaskIcon {
+  width: 24px;
+  height: 24px;
+  @media screen and (max-width: 576px){
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.frame {
+  width: 14px;
+  height: 14px;
+}

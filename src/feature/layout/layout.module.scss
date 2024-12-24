@@ -1,0 +1,31 @@
+@use '../../style/index' as index;
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.main {
+  flex: 1;
+  width: 100%;
+  padding: 44px 70px 86px;
+  @include index.flex-center(center, center, 30px);
+
+  @media screen and (max-width: 768px){
+    padding: 30px 20px 90px;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

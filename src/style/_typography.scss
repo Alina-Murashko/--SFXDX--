@@ -1,0 +1,51 @@
+@font-face {
+  font-family: Gilroy;
+  src:
+          url("../assets/fonts/gilroy/Gilroy-Bold.eot") format("eot"),
+          url("../assets/fonts/gilroy/Gilroy-Bold.woff") format("woff"),
+          url("../assets/fonts/gilroy/Gilroy-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src:
+          url("../assets/fonts/gilroy/Gilroy-Medium.eot") format("eot"),
+          url("../assets/fonts/gilroy/Gilroy-Medium.woff") format("woff"),
+          url("../assets/fonts/gilroy/Gilroy-Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --font-family-primary: 'Manrope', sans-serif;
+  --font-family-secondary: 'Inter', sans-serif;
+  --font-family-third: "Gilroy";
+
+  // font size
+  --font-size-text-s: 12px;
+  --font-size-text-m: 14px;
+  --font-size-text-l: 16px;
+  --font-size-text-xl: 18px;
+  --font-size-text-xll: 24px;
+
+  // line height
+  --line-height-text-s: 20px;
+  --line-height-text-m: 22px;
+  --line-height-text-l: 26px;
+  --line-height-text-xl: 34px;
+  --line-height-text-xxl: 40px;
+
+  --line-height-xs: 14px;
+  --line-height-s: 16px;
+  --line-height-m: 18px;
+  --line-height-l: 20px;
+  --line-height-xl: 24px;
+  --line-height-xll: 30px;
+
+  // font weights
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+}

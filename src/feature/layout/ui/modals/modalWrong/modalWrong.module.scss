@@ -1,0 +1,6 @@
+@use '../../../../../style/index' as index;
+
+.modalContent {
+  padding: 24px 40px 24px;
+  @include index.flex-center(center,space-between, 24px, column);
+}
